@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Prediksi Dini Diabetes</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Selamat Datang!</string>
+    <string name="diabetes">Apa itu Diabetes?</string>
+    <string name="predict">Prediksi Dini Diabetes</string>
+    <string name="about">Tentang Aplikasi</string>
+
+    <string name="usia_16_sampai_45_tahun">Usia 16 sampai 45 Tahun</string>
+    <string name="usia_46_sampai_69_tahun">Usia 46 sampai 69 tahun</string>
+    <string name="usia_70_tahun_keatas">Usia 70 tahun keatas</string>
+
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="positive">Positive</string>
+    <string name="negative">Negative</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="lakilaki">Laki-Laki</string>
+
+    <string name="info_diabetes">Diabetes adalah suatu penyakit menahun yang ditandai oleh kadar glukosa darah yang melebihi nilai normal.  \n\nNormalnya, kadar gula darah adalah kurang dari 200 mg/dL dan  kadar gula darah puasa ialah kurang dari 126 mg/dL. \n\nPenyakit diabetes disebabkan oleh kekurangan hormon insulin yang dihasilkan oleh pankreas untuk menurunkan kadar gula darah.</string>
+</resources>

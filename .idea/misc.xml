@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/drawable-v24/main_rectangle2.xml" value="0.2105" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/drawable/back.xml" value="0.182" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/drawable/hiasan.xml" value="0.182" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/drawable/info.xml" value="0.158" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/drawable/main_rectangle.xml" value="0.182" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/drawable/oval.xml" value="0.2795" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/drawable/round.xml" value="0.2105" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/activity_about.xml" value="0.264" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/activity_diabetes_info.xml" value="0.6" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/activity_predict.xml" value="0.16785714285714284" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_b_b1.xml" value="0.1" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_botak1.xml" value="0.2" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_botak2.xml" value="0.1265625" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_botak3.xml" value="0.1265625" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_description.xml" value="0.264" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_gatal1.xml" value="0.2" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_gatal2.xml" value="0.1265625" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_genital1.xml" value="0.1265625" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_genital2.xml" value="0.1265625" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_j_k1.xml" value="0.2" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_j_k2.xml" value="0.1265625" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_j_k3.xml" value="0.264" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_lapar1.xml" value="0.264" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_luka1.xml" value="0.1265625" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_luka2.xml" value="0.2" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_marah1.xml" value="0.264" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_marah2.xml" value="0.36342592592592593" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_negative.xml" value="0.2" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_pandangan_kabur1.xml" value="0.1265625" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_partial1.xml" value="0.1265625" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_positive.xml" value="0.1" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_sering_buang_air_kecil.xml" value="0.1765625" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_sering_haus.xml" value="0.21212121212121213" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_sering_haus1.xml" value="0.264" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_sering_haus2.xml" value="0.264" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_usia1.xml" value="0.264" />
+        <entry key="..\:/######SKRIPSI/android-kotlin/app/src/main/res/layout/fragment_usia2.xml" value="0.36342592592592593" />
+        <entry key="..\:/android-kotlin/app/src/main/res/layout/activity_about.xml" value="0.22573749465583584" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

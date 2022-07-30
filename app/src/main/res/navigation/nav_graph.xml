@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/descriptionFragment">
+    <fragment
+        android:id="@+id/seringHaus1Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.SeringHaus1Fragment"
+        android:label="fragment_sering_haus"
+        tools:layout="@layout/fragment_sering_haus1">
+        <action
+            android:id="@+id/haus1_no_ke_gatal1"
+            app:destination="@id/gatal1Fragment" />
+        <action
+            android:id="@+id/haus1_yes_predict"
+            app:destination="@id/positiveFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/seringBuangAirKecilFragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.SeringBuangAirKecilFragment"
+        android:label="fragment_sering_buang_air_kecil"
+        tools:layout="@layout/fragment_sering_buang_air_kecil" >
+        <action
+            android:id="@+id/yes_ke_sering_haus"
+            app:destination="@id/seringHaus1Fragment" />
+        <action
+            android:id="@+id/no_ke_sering_haus"
+            app:destination="@id/seringHaus2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/descriptionFragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.DescriptionFragment"
+        android:label="fragment_description"
+        tools:layout="@layout/fragment_description" >
+        <action
+            android:id="@+id/desc_ke_pertanyaan1"
+            app:destination="@id/seringBuangAirKecilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seringHaus2Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.SeringHaus2Fragment"
+        android:label="fragment_sering_haus2"
+        tools:layout="@layout/fragment_sering_haus2">
+        <action
+            android:id="@+id/haus2_yes_ke_marah1"
+            app:destination="@id/marah1Fragment" />
+        <action
+            android:id="@+id/haus2_no_ke_jk3"
+            app:destination="@id/JK3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gatal1Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.Gatal1Fragment"
+        android:label="fragment_gatal1"
+        tools:layout="@layout/fragment_gatal1">
+        <action
+            android:id="@+id/gatal1_yes_ke_luka1"
+            app:destination="@id/luka1Fragment" />
+        <action
+            android:id="@+id/gatal1_no_predict"
+            app:destination="@id/positiveFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/gatal2Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.Gatal2Fragment"
+        android:label="fragment_gatal2"
+        tools:layout="@layout/fragment_gatal2">
+        <action
+            android:id="@+id/gatal2_yes_ke_jk2"
+            app:destination="@id/JK2Fragment" />
+        <action
+            android:id="@+id/gatal2_no_predict"
+            app:destination="@id/positiveFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/luka1Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.Luka1Fragment"
+        android:label="fragment_luka1"
+        tools:layout="@layout/fragment_luka1">
+        <action
+            android:id="@+id/luka1_yes_ke_botak1"
+            app:destination="@id/botak1Fragment" />
+        <action
+            android:id="@+id/luka1_no_predict"
+            app:destination="@id/positiveFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/luka2Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.Luka2Fragment"
+        android:label="fragment_luka2"
+        tools:layout="@layout/fragment_luka2">
+        <action
+            android:id="@+id/luka2_yes_ke_usia2"
+            app:destination="@id/Usia2Fragment" />
+        <action
+            android:id="@+id/luka2_no_predict"
+            app:destination="@id/negativeFragment14" />
+    </fragment>
+    <fragment
+        android:id="@+id/botak1Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.Botak1Fragment"
+        android:label="fragment_botak1"
+        tools:layout="@layout/fragment_botak1">
+        <action
+            android:id="@+id/botak1_yes_ke_jk1"
+            app:destination="@id/JK1Fragment" />
+        <action
+            android:id="@+id/botak1_no_predict"
+            app:destination="@id/positiveFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/botak2Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.Botak2Fragment"
+        android:label="fragment_botak2"
+        tools:layout="@layout/fragment_botak2">
+        <action
+            android:id="@+id/botak2_no_predict"
+            app:destination="@id/negativeFragment14" />
+        <action
+            android:id="@+id/botak2_yes_predict"
+            app:destination="@id/positiveFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/botak3Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.Botak3Fragment"
+        android:label="fragment_botak3"
+        tools:layout="@layout/fragment_botak3">
+        <action
+            android:id="@+id/botak3_no_predict"
+            app:destination="@id/positiveFragment2" />
+        <action
+            android:id="@+id/botak3_yes_predict"
+            app:destination="@id/negativeFragment14" />
+    </fragment>
+    <fragment
+        android:id="@+id/JK1Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.JK1Fragment"
+        android:label="fragment_j_k1"
+        tools:layout="@layout/fragment_j_k1">
+        <action
+            android:id="@+id/jk1_lakilaki_ke_buram"
+            app:destination="@id/pandanganKabur1Fragment" />
+        <action
+            android:id="@+id/jk1_perempuan_predict"
+            app:destination="@id/positiveFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/JK2Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.JK2Fragment"
+        android:label="fragment_j_k2"
+        tools:layout="@layout/fragment_j_k2">
+        <action
+            android:id="@+id/jk2_lakilaki_ke_botak2"
+            app:destination="@id/botak2Fragment" />
+        <action
+            android:id="@+id/jk2_perempuan_predict"
+            app:destination="@id/positiveFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/JK3Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.JK3Fragment"
+        android:label="fragment_j_k3"
+        tools:layout="@layout/fragment_j_k3">
+        <action
+            android:id="@+id/jk3_lakilaki_ke_marah2"
+            app:destination="@id/marah2Fragment" />
+        <action
+            android:id="@+id/jk3_perempuan_ke_botak3"
+            app:destination="@id/botak3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pandanganKabur1Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.PandanganKabur1Fragment"
+        android:label="fragment_pandangan_kabur1"
+        tools:layout="@layout/fragment_pandangan_kabur1">
+        <action
+            android:id="@+id/buram1_no_ke_bb"
+            app:destination="@id/BB1Fragment" />
+        <action
+            android:id="@+id/buram1_yes_predict"
+            app:destination="@id/negativeFragment14" />
+    </fragment>
+    <fragment
+        android:id="@+id/BB1Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.BB1Fragment"
+        android:label="fragment_b_b1"
+        tools:layout="@layout/fragment_b_b1">
+        <action
+            android:id="@+id/bb1_no_predict"
+            app:destination="@id/positiveFragment2" />
+        <action
+            android:id="@+id/bb1_yes_predict"
+            app:destination="@id/negativeFragment14" />
+    </fragment>
+    <fragment
+        android:id="@+id/marah1Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.Marah1Fragment"
+        android:label="fragment_marah1"
+        tools:layout="@layout/fragment_marah1">
+        <action
+            android:id="@+id/marah1_no_ke_gatal2"
+            app:destination="@id/gatal2Fragment" />
+        <action
+            android:id="@+id/marah1_yes_predict"
+            app:destination="@id/positiveFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/marah2Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.Marah2Fragment"
+        android:label="fragment_marah2"
+        tools:layout="@layout/fragment_marah2">
+        <action
+            android:id="@+id/marah2_yes_ke_genital1"
+            app:destination="@id/genital1Fragment" />
+        <action
+            android:id="@+id/marah2_no_ke_partial1"
+            app:destination="@id/partial1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/genital1Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.Genital1Fragment"
+        android:label="fragment_genital1"
+        tools:layout="@layout/fragment_genital1">
+        <action
+            android:id="@+id/genital1_no_ke_usia1"
+            app:destination="@id/Usia1" />
+        <action
+            android:id="@+id/genital1_yes_predict"
+            app:destination="@id/positiveFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/genital2Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.Genital2Fragment"
+        android:label="fragment_genital2"
+        tools:layout="@layout/fragment_genital2">
+        <action
+            android:id="@+id/genital2_no_predict"
+            app:destination="@id/positiveFragment2" />
+        <action
+            android:id="@+id/genital2_yes_predict"
+            app:destination="@id/negativeFragment14" />
+    </fragment>
+    <fragment
+        android:id="@+id/partial1Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.Partial1Fragment"
+        android:label="fragment_partial1"
+        tools:layout="@layout/fragment_partial1">
+        <action
+            android:id="@+id/partial1_no_ke_luka2"
+            app:destination="@id/luka2Fragment" />
+        <action
+            android:id="@+id/partial1_yes_predict"
+            app:destination="@id/negativeFragment14" />
+    </fragment>
+    <fragment
+        android:id="@+id/lapar1Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.Lapar1Fragment"
+        android:label="fragment_lapar1"
+        tools:layout="@layout/fragment_lapar1">
+        <action
+            android:id="@+id/lapar1_no_predict"
+            app:destination="@id/negativeFragment14" />
+        <action
+            android:id="@+id/lapar1_yes_predict"
+            app:destination="@id/positiveFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/Usia1"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.Usia1Fragment"
+        android:label="fragment_usia1"
+        tools:layout="@layout/fragment_usia1">
+        <action
+            android:id="@+id/usia1_kelompok1_ke_lapar1"
+            app:destination="@id/lapar1Fragment" />
+        <action
+            android:id="@+id/usia1_kelompok2_predict"
+            app:destination="@id/negativeFragment14" />
+    </fragment>
+    <fragment
+        android:id="@+id/Usia2Fragment"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.Usia2Fragment"
+        android:label="fragment_kelompok1_usia2"
+        tools:layout="@layout/fragment_usia2">
+        <action
+            android:id="@+id/usia2_kelompok1_ke_genital2"
+            app:destination="@id/genital2Fragment" />
+        <action
+            android:id="@+id/usia2_kelompok2_predict"
+            app:destination="@id/negativeFragment14" />
+        <action
+            android:id="@+id/usia2_kelompok3_predict"
+            app:destination="@id/negativeFragment14" />
+    </fragment>
+    <fragment
+        android:id="@+id/negativeFragment14"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.NegativeFragment"
+        android:label="NegativeFragment" />
+    <fragment
+        android:id="@+id/positiveFragment2"
+        android:name="com.dicoding.picodiploma.mydiabetespredict.view.fragment.PositiveFragment"
+        android:label="PositiveFragment" />
+</navigation>
